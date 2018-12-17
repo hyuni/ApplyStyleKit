@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51672B8B21C71F4F001BB405 /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51672B8A21C71F4F001BB405 /* UIControl+ApplyStyle.swift */; };
 		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
 		516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */; };
 		518F391421C3F18B00D6D903 /* ApplyStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51672B8A21C71F4F001BB405 /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
 		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		518F390A21C3F18B00D6D903 /* ApplyStyleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplyStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51672B8921C71F1E001BB405 /* QuartzCore+ApplyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
+			);
+			path = "QuartzCore+ApplyStyle";
+			sourceTree = "<group>";
+		};
 		516AB57621C5CBA20026052C /* UIKit+ApplyStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 		518F390C21C3F18B00D6D903 /* ApplyStyleKit */ = {
 			isa = PBXGroup;
 			children = (
+				51672B8921C71F1E001BB405 /* QuartzCore+ApplyStyle */,
 				51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */,
 				51C715FA21C3FA7400110ABA /* ApplyStyle */,
 				518F390D21C3F18B00D6D903 /* ApplyStyleKit.h */,
@@ -151,12 +162,12 @@
 		51C715FB21C3FA8B00110ABA /* UIKit+ApplyStyle */ = {
 			isa = PBXGroup;
 			children = (
-				51C7160021C3FB3700110ABA /* CALayer+ApplyStyle.swift */,
 				51C7160121C3FB3700110ABA /* UIButton+ApplyStyle.swift */,
 				51C7160421C3FB3700110ABA /* UIImageView+ApplyStyle.swift */,
 				51C7160221C3FB3700110ABA /* UILabel+ApplyStyle.swift */,
 				51C7160521C3FB3700110ABA /* UISwitch+ApplyStyle.swift */,
 				51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */,
+				51672B8A21C71F4F001BB405 /* UIControl+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -328,6 +339,7 @@
 				51C715FF21C3FAD700110ABA /* ApplyStyle.swift in Sources */,
 				51C7160821C3FB3700110ABA /* UILabel+ApplyStyle.swift in Sources */,
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
+				51672B8B21C71F4F001BB405 /* UIControl+ApplyStyle.swift in Sources */,
 				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

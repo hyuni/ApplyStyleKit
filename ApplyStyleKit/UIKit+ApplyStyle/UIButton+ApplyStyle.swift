@@ -83,14 +83,4 @@ extension StyleObject where Base: UIButton {
         base.setAttributedTitle(title, for: state)
         return self
     }
-
-    @discardableResult public func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControl.Event)-> StyleObject {
-        base.addTarget(target, action: action, for: controlEvents)
-        return self
-    }
-
-    @discardableResult public func removeTarget(_ target: Any?, action: Selector?, for controlEvents: UIControl.Event) -> StyleObject {
-        base.removeTarget(target, action: action, for: controlEvents)
-        return self
-    }
 }
