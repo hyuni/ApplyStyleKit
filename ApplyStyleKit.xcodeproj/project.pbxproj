@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */; };
+		1780F82F21CBA0140011A5B0 /* UICollectionView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780F82E21CBA0140011A5B0 /* UICollectionView+ApplyStyle.swift */; };
+		1780F83121CBA0240011A5B0 /* UICollectionView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780F83021CBA0240011A5B0 /* UICollectionView+ApplyStyleTests.swift */; };
 		5143DAAA21C9148A00D7BCDB /* UIStackView+ApplyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */; };
 		5143DAAC21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */; };
 		516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+ApplyStyle.swift"; sourceTree = "<group>"; };
+		1780F82E21CBA0140011A5B0 /* UICollectionView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyle.swift"; sourceTree = "<group>"; };
+		1780F83021CBA0240011A5B0 /* UICollectionView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyle.swift"; sourceTree = "<group>"; };
 		5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
 		516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ApplyStyleTests.swift"; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				516AB57721C5CBC60026052C /* UIView+ApplyStyleTests.swift */,
 				516AB57921C5CF770026052C /* UILabel+ApplyStyleTests.swift */,
 				5143DAAB21C9149B00D7BCDB /* UIStackView+ApplyStyleTests.swift */,
+				1780F83021CBA0240011A5B0 /* UICollectionView+ApplyStyleTests.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				51C7160321C3FB3700110ABA /* UIView+ApplyStyle.swift */,
 				5143DAA921C9148A00D7BCDB /* UIStackView+ApplyStyle.swift */,
 				175D80AC21C762480008DADD /* UIControl+ApplyStyle.swift */,
+				1780F82E21CBA0140011A5B0 /* UICollectionView+ApplyStyle.swift */,
 			);
 			path = "UIKit+ApplyStyle";
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 				51C7160B21C3FB3700110ABA /* UISwitch+ApplyStyle.swift in Sources */,
 				175D80AD21C762480008DADD /* UIControl+ApplyStyle.swift in Sources */,
 				51C7160621C3FB3700110ABA /* CALayer+ApplyStyle.swift in Sources */,
+				1780F82F21CBA0140011A5B0 /* UICollectionView+ApplyStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +366,7 @@
 				518F391921C3F18B00D6D903 /* ApplyStyleKitTests.swift in Sources */,
 				516AB57821C5CBC60026052C /* UIView+ApplyStyleTests.swift in Sources */,
 				516AB57A21C5CF770026052C /* UILabel+ApplyStyleTests.swift in Sources */,
+				1780F83121CBA0240011A5B0 /* UICollectionView+ApplyStyleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
